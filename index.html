@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopido</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Logo.jpeg" type="image/x-icon">
+</head>
+<body>
+    <header class="nav">
+        <div class="logo">
+            <img src="Logo.jpeg" alt="Kopido Logo">
+            <h1>Kopi<span>Do.</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#service">Service</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="welcome-section" id="home">
+        <div class="content-left">
+            <h2>Don't forget to order our <span>special coffee.</span></h2>
+            <p>Hey, our delicious food is waiting for you. We are always near with fresh drinks.</p>
+            <a href="#menu"><button>Explore Drinks</button></a>
+        </div>
+        <div class="content-right">
+            <img src="Biji.jpeg" alt="Special Coffee">
+        </div>
+    </section>
+
+    <!-- Section About Us -->
+<section class="about-us" id="about">
+    <div class="about-container">
+        <div class="about-image">
+            <img src="Kopishop.jpg" alt="Kopido Cafe Interior">
+        </div>
+        <div class="about-content">
+            <h3>About Us</h3>
+            <p>Welcome to Kopido, where coffee is more than just a beverage; it's an experience. Nestled in the heart of the city, Kopido offers a cozy atmosphere perfect for enjoying a cup of our special coffee. Our journey started with a simple passion for quality coffee, and now we are dedicated to bringing that passion to every cup we serve.</p>
+            <p>At Kopido, we believe in the power of good coffee to bring people together. Our carefully curated menu features a blend of traditional and contemporary flavors, ensuring there's something for everyone. Whether you're here for a quick coffee break or a leisurely afternoon with friends, we strive to make every visit memorable.</p>
+            <p>Join us at Kopido and discover the warmth and richness that our coffee and community offer.</p>
+        </div>
+    </div>
+</section>
+
+    
+    <section class="category">
+        <h3>Recommended</h3>
+        <div class="card-list">
+            <div class="card">
+                <img src="Golda Kopi.jpg" alt="Golda Kopi">
+                <h1>GOLDA KOPI</h1>
+                <p>Nikmati kopi dengan kenikmatan yang penuh dengan keindahan.</p>
+                <div class="price">
+                    <span>Rp 20.000</span>
+                    <span><i class='bx bxs-plus-circle'></i></span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Roti Maryam.jpg" alt="Roti Maryam">
+                <h1>ROTI MARYAM</h1>
+                <p>Roti yang sangat lembut untuk dinikmati dibarengi kopi.</p>
+                <div class="price">
+                    <span>Rp 15.000</span>
+                    <span><i class='bx bxs-plus-circle'></i></span>
+                </div>
+            </div>
+        </div>
+        <!-- Tambahkan Button Explore More -->
+        <div class="explore-more">
+            <button onclick="exploreMore()">Explore More</button>
+        </div>
+    </section>
+    
+    <!-- Section Menu -->
+    <section class="menu2" id="menu">
+        <h3>Menu</h3>
+        <div class="menu-list2">
+            <img src="Menu.jpg" alt="Menu Image" height="150px">
+            <div class="card-list2">
+                <div class="card2">
+                    <img src="KopiHitam.jpg" alt="Kopi Hitam">
+                    <h1>KOPI HITAM</h1>
+                    <p>Kopi hitam pekat dengan aroma yang khas.</p>
+                    <div class="price">
+                        <span>Rp 18.000</span>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="Cappuccino.jpg" alt="Cappuccino">
+                    <h1>CAPPUCCINO</h1>
+                    <p>Kombinasi kopi espresso dengan susu dan foam.</p>
+                    <div class="price">
+                        <span>Rp 25.000</span>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="Latte.jpg" alt="Latte">
+                    <h1>LATTE</h1>
+                    <p>Espresso dicampur dengan susu yang lembut.</p>
+                    <div class="price">
+                        <span>Rp 22.000</span>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="RotiPisang.jpg" alt="Roti Pisang">
+                    <h1>ROTI PISANG</h1>
+                    <p>Roti isi pisang manis dan lezat.</p>
+                    <div class="price">
+                        <span>Rp 12.000</span>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="KueLapis.jpg" alt="Kue Lapis">
+                    <h1>KUE LAPIS</h1>
+                    <p>Kue tradisional dengan lapisan warna-warni.</p>
+                    <div class="price">
+                        <span>Rp 10.000</span>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="Donat.jpg" alt="Donat">
+                    <h1>DONAT</h1>
+                    <p>Donat manis dengan taburan gula halus.</p>
+                    <div class="price">
+                        <span>Rp 15.000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h3>Gallery</h3>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="Golda Kopi.jpg" alt="Menu Item 1">
+            </div>
+            <div class="gallery-item">
+                <img src="KopiHitam.jpg" alt="Menu Item 2">
+            </div>
+            <div class="gallery-item">
+                <img src="Latte.jpg" alt="Menu Item 3">
+            </div>
+            <div class="gallery-item">
+                <img src="Cappuccino.jpg" alt="Menu Item 4">
+            </div>
+            <div class="gallery-item">
+                <img src="Roti Maryam.jpg" alt="Menu Item 5">
+            </div>
+            <div class="gallery-item">
+                <img src="Donat.jpg" alt="Menu Item 6">
+            </div>
+            <div class="gallery-item">
+                <img src="KueLapis.jpg" alt="Menu Item 6">
+            </div>
+            <div class="gallery-item">
+                <img src="RotiPisang.jpg" alt="Menu Item 6">
+            </div>
+        </div>
+    </section>
+    
+    <section class="services" id="services">
+        <h3>Our Services</h3>
+        <div class="service-list">
+            <div class="service-item">
+                <h4>Coffee Brewing</h4>
+                <p>We serve freshly brewed coffee made from the finest beans. Whether you like it strong or mild, we have the perfect cup for you.</p>
+            </div>
+            <div class="service-item">
+                <h4>Cozy Atmosphere</h4>
+                <p>Enjoy your coffee in our cozy and inviting environment. Perfect for relaxing, working, or meeting with friends.</p>
+            </div>
+            <div class="service-item">
+                <h4>Catering Service</h4>
+                <p>We provide catering services for your events. From small gatherings to large parties, we’ve got you covered.</p>
+            </div>
+            <div class="service-item">
+                <h4>Free Wi-Fi</h4>
+                <p>Stay connected with our high-speed Wi-Fi. Perfect for remote work or catching up on your favorite shows while enjoying your coffee.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="service">
+        <h3>Contact Us</h3>
+        <div class="contact-details">
+            <p><strong>Address:</strong> Jl. Kopi No. 123, Jakarta, Indonesia</p>
+            <p><strong>Phone:</strong> +62 123 4567 890</p>
+            <p><strong>Email:</strong> contact@kopido.com</p>
+            <p><strong>Follow us:</strong> 
+                <a href="#">Instagram</a> | 
+                <a href="#">Facebook</a> | 
+                <a href="#">Twitter</a>
+            </p>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p>&copy; 2024 Kopido. All rights reserved.</p>
+        <p>Made with ❤️ by Kopido.</p>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
